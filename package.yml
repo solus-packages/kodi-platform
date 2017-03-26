@@ -1,6 +1,6 @@
 name       : kodi-platform
 version    : 55  # git rev-list --count 36fb493 (2017-03-06)
-release    : 1
+release    : 2
 source     :
     - git|https://github.com/xbmc/kodi-platform.git : 36fb49371dbce49bf470a5bb1fc51b74b4a3612d
 license    : GPL-2.0
@@ -11,7 +11,7 @@ description: |
     Needed for building e.g. the inputstream.adaptive addon.
 builddeps  :
     - kodi-devel
-    - pkgconfig(p8-platform)  # provided by libplatform-devel
+    - pkgconfig(p8-platform)
     - pkgconfig(tinyxml)
 setup      : |
     %cmake
