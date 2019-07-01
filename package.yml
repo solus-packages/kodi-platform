@@ -1,14 +1,13 @@
 name       : kodi-platform
-version    : 55  # git rev-list --count 36fb493 (2017-03-06)
-release    : 2
+version    : 59  # git rev-list --count 915da08 (2019-04-29)
+release    : 3
 source     :
-    - git|https://github.com/xbmc/kodi-platform.git : 36fb49371dbce49bf470a5bb1fc51b74b4a3612d
-license    : GPL-2.0
+    - git|https://github.com/xbmc/kodi-platform.git : 915da086fa7b4ea72796052a04ed6de95501b95c 
+license    : GPL-2.0-or-later
 component  : desktop.multimedia
 summary    : Kodi platform support library
 description: |
-    Kodi platform support library.
-    Needed for building e.g. the inputstream.adaptive addon.
+    Kodi binary add-ons depend on the Kodi platform support library.
 builddeps  :
     - kodi-devel
     - pkgconfig(p8-platform)
