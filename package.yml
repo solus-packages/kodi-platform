@@ -1,8 +1,8 @@
 name       : kodi-platform
 version    : 59  # git rev-list --count 915da08 (2019-04-29)
-release    : 4
+release    : 6
 source     :
-    - git|https://github.com/xbmc/kodi-platform.git : 915da086fa7b4ea72796052a04ed6de95501b95c 
+    - git|https://github.com/xbmc/kodi-platform.git : 915da086fa7b4ea72796052a04ed6de95501b95c
 license    : GPL-2.0-or-later
 component  : desktop.multimedia
 summary    : Kodi platform support library

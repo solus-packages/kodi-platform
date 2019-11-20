@@ -31,7 +31,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="4">kodi-platform</Dependency>
+            <Dependency release="6">kodi-platform</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/kodi/util/XMLUtils.h</Path>
@@ -40,26 +40,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2019-08-28</Date>
+        <Update release="6">
+            <Date>2019-11-20</Date>
             <Version>59</Version>
-            <Comment>kodi-platform: Safety rebuild against kodi (libraw update)</Comment>
+            <Comment>Packaging update</Comment>
             <Name>Rune Morling</Name>
             <Email>ermo.solus-project.com@spammesenseless.net</Email>
-        </Update>
-        <Update release="3">
-            <Date>2019-07-01</Date>
-            <Version>59</Version>
-            <Comment>Update and build against kodi-18.3</Comment>
-            <Name>Rune Morling</Name>
-            <Email>ermo.solus-project.com@spammesenseless.net</Email>
-        </Update>
-        <Update release="2">
-            <Date>2017-03-26</Date>
-            <Version>55</Version>
-            <Comment>Removed unnecessary comment. Cooresponding package names to pkgconfigs can be determined via epcsearch.</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
